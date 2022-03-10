@@ -12,6 +12,12 @@ img {
   font-weight: 900;
 }
 
+#title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -23,4 +29,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+#items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  flex: 1;
+}
+
+.item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
 }
